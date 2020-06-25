@@ -1,0 +1,1 @@
+const arr = ["Rock","Paper","Scissors"]
