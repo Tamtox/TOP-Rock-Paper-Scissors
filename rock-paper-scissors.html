@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 <link rel="stylesheet" href="rock-paper-scissors.css">
 <script src="rock-paper-scissors.js"></script>
@@ -14,8 +15,20 @@
 <body>
 <header><h1 class="container text-center">Rock Paper Scissors</h1></header>
 <main>
-    <div class="container text-center" id="score">
-        
+    <div class="container" id="score">
+        <div id='player'>
+            <i class="far fa-smile-beam"></i>
+            <p>Player</p>
+        </div>
+        <div id='scoreboard'>
+            <p id="player-score">0</p>
+            <p>-</p>
+            <p id="computer-score">0</p>
+        </div>
+        <div id='computer'>
+            <i class="fas fa-robot"></i>
+            <p>Computer</p>
+        </div>
     </div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
