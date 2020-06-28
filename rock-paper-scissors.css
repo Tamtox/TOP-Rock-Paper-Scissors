@@ -42,6 +42,15 @@ main {
     margin-top: 7rem;
     font-size: 10rem;
 }
+#rock {
+    color:rgb(3, 83, 3);
+}
+#paper {
+    color: royalblue;
+}
+#scissors {
+    color: red;
+}
 .choice-item {
     height: 13rem;
     width: 13rem;
