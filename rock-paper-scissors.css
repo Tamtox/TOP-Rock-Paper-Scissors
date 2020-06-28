@@ -1,8 +1,9 @@
 header {
-    background-color: rgb(239, 246, 252);
+    background-color: ;
     font-family: 'Audiowide', cursive;
 }
 main {
+    background-color: rgb(238, 238, 238);
     height: 50rem;
     width: 120rem;
 }
@@ -49,11 +50,20 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .2s ease-in-out;
+}
+.choice-item:hover {
+    box-shadow: -3px 3px 58px -10px rgb(126, 126, 126);
+    transform: scale(1.2);
 }
 #scissors-icon {
     transform: rotate(90deg);
 }
 footer {
+    background-color: rgb(239, 246, 252);
+    height: 3rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 1rem;
 }
